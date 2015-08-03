@@ -47,6 +47,7 @@ nav li a:hover {
 	width: 25%;
 	float: left;
 	margin: 2px;
+	background-size: auto 60px;
 }
 .container {
 	width: 100%;
