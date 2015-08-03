@@ -1,0 +1,100 @@
+@import url(http://fonts.googleapis.com/css?family=Kreon|Magra);
+
+body {
+	color: #333; 
+    font-family: 'Magra', sans-serif;
+    padding-top: 66px;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kreon', serif;
+  font-weight: 700;
+}
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+	border-bottom: 5px solid #ccc;
+	height: 65px;
+	width: 100%;
+	font-weight: 600;
+	opacity: .95;
+}
+nav ul {
+	float: right;
+	width: auto;
+}
+nav li {
+	float: left;
+	width: auto;
+	padding: 4px;
+}
+nav li a {
+	padding: 27px 10px;
+	display: block;
+	text-decoration: none;
+	color: #333;
+}
+nav li a:hover {
+	background: rgba(255,104,3,.75);
+	color: #000;
+	height: 12px;
+}
+#brand {
+	color: transparent;	
+	background: url(../images/zoologicodelogo.png) no-repeat top left;
+	height: 65px;
+	width: 25%;
+	float: left;
+	margin: 2px;
+}
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+#hero {
+	background: url(../images/durhamdave.jpg) no-repeat top left;
+	color: #ccc;
+	text-align: center;
+	height: 350px;
+	padding: 25px 0px;
+	background-size: cover;
+	font-weight: 700;
+	font-size: 150%;
+}
+#hero img {
+	width: 175px;
+	border-radius: 20%;
+	margin-top: 35px;
+	opacity: 1;
+}
+#title{
+	text-align: center;
+	font-size: 200%;
+}
+.column {
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+.column img {
+	width: 80%;
+	max-width: 80%;
+	border-radius: 30%;
+	border: #ccc solid 5px;
+}
+.column h4 {
+	padding: 5px;
+	text-align: center;
+}
+#social {
+	background: rgba(255,104,3,.85);
+    padding: 25px 0;
+    overflow: hidden;
+}
+#social li {
+	float: left;
+    width: auto;
+    padding: 20px;
+}
+/*align social below comments, above footer*/
