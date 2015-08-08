@@ -54,7 +54,7 @@ nav li a:hover {
 	margin: 0 auto;
 }
 #hero {
-	background: url(../images/durhamdave.jpg) no-repeat top left;
+	background: url(../images/American_Tobacco_skyline.jpg) no-repeat top left;
 	color: #ccc;
 	text-align: center;
 	height: 350px;
@@ -72,30 +72,43 @@ nav li a:hover {
 #title{
 	text-align: center;
 	font-size: 200%;
+	padding-top: 10px;
 }
 .column {
 	float: left;
-	width: 30%;
+	width: 31.5%;
 	padding: 10px;
 }
 .column img {
-	width: 80%;
-	max-width: 80%;
-	border-radius: 30%;
+	display: block;
+	width: 60%;
+	max-width: 75%;
+	margin: 10px auto;
+	border-radius: 33%;
 	border: #ccc solid 5px;
 }
 .column h4 {
 	padding: 5px;
 	text-align: center;
 }
-#social {
+.column p {
+	padding: 5px;
+	text-align: center;
+	margin-left: 7%;
+	margin-right: 7%;
+}
+#social .container {
 	background: rgba(255,104,3,.85);
-    padding: 25px 0;
+    padding: 5px 0px;
     overflow: hidden;
 }
 #social li {
+	display: block;
 	float: left;
     width: auto;
-    padding: 20px;
+    padding: 10px;
 }
 /*align social below comments, above footer*/
+/*create functional buttons*/
+/*Oohhhh the columns.*/
+/*Add white border to text in hero? */
